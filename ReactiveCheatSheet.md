@@ -1,3 +1,17 @@
+---
+layout: page
+title: Reactive Cheat Sheet
+---
+
+This cheat sheet originated from the forums. There are certainly a lot of things that can be improved! If you would like to contribute, you have two options:
+
+Click the "Edit" button on this file on GitHub:
+[https://github.com/sjuvekar/reactive-programming-scala/blob/master/ReactiveCheatSheet.md](https://github.com/sjuvekar/reactive-programming-scala/edit/master/ReactiveCheatSheet.md)
+You can submit a pull request directly from there without checking out the git repository to your local machine.
+
+Fork the repository [https://github.com/sjuvekar/reactive-programming-scala/](https://github.com/sjuvekar/reactive-programming-scala/) and check it out locally. To preview your changes, you need jekyll. Navigate to your checkout and invoke `jekyll serve --watch` (or `jekyll --auto --server` if you have an older jekyll version), then open the page `http://localhost:4000/ReactiveCheatSheet.html`.
+
+
 ## Partial Functions
 
 A subtype of trait `Function1` that is well defined on a subset of its domain.
